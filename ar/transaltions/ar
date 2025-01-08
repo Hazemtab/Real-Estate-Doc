@@ -1,91 +1,139 @@
-# Tenant & Contract Dashboard
+# Tenant Management
 
-The dashboard offers several key features, with the most notable ones being:
+## [**Add New Tenant**](tenant-management.md#add-new-tenant)
 
-- It offers a clear view of tenants and their contracts in both [Expanded](tenant-and-contract-dashboard.md#default-view-expanded) and [Collapsed](tenant-and-contract-dashboard.md#collapsed-view-unexpanded) modes.&#x20
-- Quickly [access key details](tenant-and-contract-dashboard.md#information-displayed).
-- &#x20;Manage tenant information. Check [here](tenant-and-contract-dashboard.md#tenant-actions).
-- &#x20;Perform contract actions like editing, renewing, or terminating contracts efficiently. More details can be found [here](tenant-and-contract-dashboard.md#contract-actions).
+By clicking on the **+ADD TENANT** button within the Tenant and Contract Management section, merchants will be prompted to fill out the following information:\
 
-## [**Default View (Expanded)**](tenant-and-contract-dashboard.md#default-view-expanded)
+<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-&#x20;All tenants are listed, and each tenant is followed by their associated contracts.
+#### New Tenant Form:
 
-**Example**:
+#### **For Residential Tenant Type:**
 
-```
-Tenant 1
-  - Contract 1
-  - Contract 2
-  - Contract 3
-Tenant 2
-  - Contract 1
-  - Contract 2
-  - Contract 3
-```
+- #### **Tenant Name (EN):**&#x20
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+  Enter the name of the tenant in English.
+- #### **Tenant Name (AR):**&#x20
 
-## [**Collapsed View (Unexpanded)**](tenant-and-contract-dashboard.md#collapsed-view-unexpanded)
+  Enter the name of the tenant in Arabic.
+- #### **Civil ID Number:**&#x20
 
-Uncheck the **Expand** box to view a list of tenants without their contracts.
+  Provide the civil ID number of the tenant.
+- #### **Upload Civil ID (Front):**&#x20
 
-**Example Before Expanding**:
+  Upload a scanned copy of the front side of the civil ID.
+- #### **Upload Civil ID (Back):**&#x20
 
-```
-Tenant 1
-Tenant 2
-Tenant 3
-```
+  Upload a scanned copy of the back side of the civil ID.
+- #### **Passport Number:**&#x20
 
-**Example After Expanding Tenant 1**:
+  Enter the passport number of the tenant (if applicable).
+- #### **Upload Passport:**&#x20
 
-Click the dropdown arrow next to a tenant's name to see their contracts.
+  Upload a scanned copy of the passport (if applicable).
+- #### **Nationality:**&#x20
 
-```
-Tenant 1
-  - Contract 1
-  - Contract 2
-  - Contract 3
-Tenant 2
-Tenant 3
-```
+  Specify the nationality of the tenant.
+- #### **Phone Number:**&#x20
 
-<figure><img src="../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+  Provide the phone number of the tenant.
+- #### **Email Address:**&#x20
 
-## [**Information Displayed**](tenant-and-contract-dashboard.md#information-displayed)
+  Enter the email address of the tenant.
+- #### **Select Notification Language:**&#x20
 
-### [**Tenant's Row**](tenant-and-contract-dashboard.md#tenants-row)
+  Choose the preferred language for notifications.\
 
-- Tenant's name
-- Civil ID
-- Phone number
-- Other relevant details
+  <figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+- #### **Is Married:**&#x20
 
-### [**Contract's Row**](tenant-and-contract-dashboard.md#contracts-row)
+  Indicate whether the tenant is married (Yes/No).
 
-- Property name
-- Number of units associated
-- Contract number and reference
-- Contract status (active or inactive)
-- Start and end dates
-- Payment amount
+  - **When Yes:**
+    - #### **Civil ID Number:**&#x20
 
-Click the dropdown arrow :arrow\_down\_small: at the end of a contract's row to access more information about that contract.
+      Provide the civil ID number of the spouse.
+    - #### **Upload Civil ID (Front):**&#x20
 
-<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+      Upload a scanned copy of the front side of the spouse's civil ID.
+    - #### **Upload Civil ID (Back):**&#x20
 
-## [**Available Actions**](tenant-and-contract-dashboard.md#available-actions)
+      Upload a scanned copy of the back side of the spouse's civil ID.
+    - #### **Passport Number:**
 
-### **Tenant Actions**
+      Provide spouse's Passport number.
+    - #### Upload Passport:&#x20
 
-**By clicking the three dots** (**⋮**) **at the beginning of each row**:
+      Provide scanned copy of spouse's passport.
+    - #### **Nationality:**&#x20
 
-- Edit tenant information
-- Create a new contract
+      Specify the nationality of the spouse.
+    - #### **Phone Number:**&#x20
 
-### **Contract Actions**
+      Provide the phone number of the spouse.
+    - #### **Email Address:**&#x20
 
-**By clicking the three dots** (**⋮**) **at the end of each row**:
+      Enter the email address of the spouse.
+    - #### **Upload Marriage Certificate:**&#x20
 
-All the information about the available contract actions can be found [here](tenant-and-contract-dashboard.md#contract-actions).
+      Upload a scanned copy of the marriage certificate.\
+
+      <figure><img src="../../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+
+**For Limited Liability Company or Listed Company Tenant Type:**
+
+- #### **Tenant Name (EN):**&#x20
+
+  Enter the name of the company in English.
+- #### **Tenant Name (AR):**&#x20
+
+  Enter the name of the company in Arabic.
+- #### **Civil ID Number:**&#x20
+
+  Provide the civil ID number of the company representative.
+- #### **Commercial Registration Number:**&#x20
+
+  Enter the commercial registration number of the company.
+- #### **Phone Number:**&#x20
+
+  Provide the phone number of the company representative.
+- #### **Email Address:**&#x20
+
+  Enter the email address of the company representative.
+- #### **Select Notification Language:**&#x20
+
+  Choose the preferred language for notifications.
+- #### **Upload Commercial Registration:**&#x20
+
+  Upload a scanned copy of the commercial registration.
+- #### **Upload Authorized Signatory Confirmation (Only for Listed Company):**&#x20
+
+  Upload a confirmation document for the authorized signatory.
+- #### **Upload Trade License:**&#x20
+
+  Upload a scanned copy of the trade license.
+- #### **Upload Authorized Signatory Name:**&#x20
+
+  Enter the name of the authorized signatory.
+- #### **Upload Attachment 1:**&#x20
+
+  Upload any additional attachment (if applicable).
+- #### **Upload Attachment 2:**&#x20
+
+  Upload any additional attachment (if applicable).
+- #### **Upload Attachment 3:**&#x20
+
+  Upload any additional attachment (if applicable).\
+  \
+
+  <figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+## [Edit Tenant](tenant-management.md#edit-tenant)
+
+1. **Search for the Tenant:** Locate the desired tenant from the list.
+2. **Open the Dropdown Menu:** Click the three dots (⋮) at the beginning of the tenant's row.
+3. **Select Edit Tenant:** From the dropdown menu, choose **Edit Tenant** to open a pre-filled form with the tenant's details.
+4. **Update Details:** Modify the editable fields as needed.
+5. **Save Changes:** Once updates are complete, click **Save** to apply the changes.
+
+<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
