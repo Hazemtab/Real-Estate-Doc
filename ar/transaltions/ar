@@ -1,50 +1,68 @@
-# Generate Invoice
+# Invoices Management
 
-In the Real Estate plugin, invoices are automatically created and prepared for all rental payments associated with each contract. These payments occur based on the [payment frequency](tenant-and-contract-management/contract-management/add-new-contract.md#payment-period) defined within the [contract form](tenant-and-contract-management/contract-management/add-new-contract.md#new-contract-form). Through the **Generate Invoice** section, merchants have the ability to explore all prepared invoices. They have the option to specify the desired [property](tenant-and-contract-management/contract-management/add-new-contract.md#property-name), [profile,](property-management.md#invoice-profile) or period to view all invoices prepared thus far.
+The **Invoices** section provides merchants with a centralized view of all generated invoices activities, including payment status, detailed records, and reporting options.
 
-{% hint style="info" %}
-&#x20;Merchants can only choose the period for previewing the invoice within the range of the plugin activation date till the current month.
-{% endhint %}
+## [Invoices Management **Dashboard**](invoices-management.md#invoices-management-dashboard)
 
-### [Generate Invoices Dashboard](generate-invoice.md#generate-invoices-dashboard)
-
-The **Generate Invoices Dashboard** helps merchants easily manage rental invoices with tools for viewing, printing, and sharing payment links.
+The **Invoice Management Dashboard** offers a clear view of all generated invoices, making it easy to track payments, manage records, and generate reports.
 
 #### **Key Features:**
 
-- **Automatic Invoices:** Invoices are generated based on the payment frequency set in each contract.
-- **Filter and Display:** View invoices by selecting **Property**, **Profile**, or **Time Period** (from the plugin activation date to the current month).
-- **Quick Preview:** Click the **SHOW** button to display all relevant invoices.
-- **Print Invoices:** Easily print invoices as professional PDF files using the **Print** button.
-- **Send Payment Links:** Share payment links directly with customers using the **Send Payment Link** button.
-- **Apply Discounts:** Discounts are automatically calculated based on unit rates and free periods between the contract start and payment start dates.
-- **Invoice Details:** Each invoice includes property info, unit details, contract data, tenant information, and financial summaries.
+- **Organized Invoice Table:** View invoices by **Property**, with details like payment status, tenant info, and amounts.
+- **Single Notification:** Notify specific tenants about pending payments via the **Payment Reminder** option.
+- **Batch Notification:** Send bulk payment reminders using the **Notify Payments** button.
+- **Manual Payment:** Record payments manually through the **Manual Payment** option.
+- **Delete Invoice:** Remove incorrect invoices via the **Delete Invoice** option.
+- **Generate Reports:** Export detailed invoice reports in PDF format using the **Generate Report** button.
 
-This dashboard simplifies invoice management, making it faster and more efficient.
+{% hint style="info" %}
+All invoices generated in the [Generate Invoices](generate-invoice.md) section are listed in the **Invoices Table**, organized by property.&#x20;
+{% endhint %}
 
-## [Display Invoices](generate-invoice.md#display-invoices)
+<figure><img src="../../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 
-This example demonstrates how to display, generate, and send invoice links. The displayed invoices can be filtered by property name, profile, or date. In this case, we specify the period as January 2025 and the property as **Doc Building** and **Doc Building and Villa**.
+## [**Single Notification**](invoices-management.md#single-notification)
 
-When the **SHOW** button is clicked, all relevant invoices from the activation date of the Real Estate plugin up to the selected month are displayed, as shown in the figure below.
+- **Purpose:** Notify a specific tenant about their pending payment.
+- **How:** Click on the **Action Menu (three dots)** next to an invoice and select **Payment Reminder**.
 
-<figure><img src="../../../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+## [**Batch Notification**](invoices-management.md#batch-notification)
 
-## [Add Discount ](generate-invoice.md#add-discount)
+- **Purpose:** Send payment notifications to multiple tenants simultaneously.
+- **How:** Use the **Notify Payments** button to send bulk notifications to all selected invoices.
 
-Each invoice will be displayed with information such as [property](tenant-and-contract-management/contract-management/add-new-contract.md#property-name), [unit information](tenant-and-contract-management/contract-management/add-new-contract.md#add-unit), [contract number](tenant-and-contract-management/contract-management/add-new-contract.md#contract-reference), contract [start](tenant-and-contract-management/contract-management/add-new-contract.md#contract-start-date) and [end](tenant-and-contract-management/contract-management/add-new-contract.md#contract-end-date) dates, [due](tenant-and-contract-management/contract-management/add-new-contract.md#payment-start-date) date, [termination details](tenant-and-contract-management/contract-management/contract-action/terminate-contract.md), and [tenant information](tenant-and-contract-management/tenant-management.md), along with the following amount information:
+## [**Manual Payment**](invoices-management.md#undefined)
 
-<figure><img src="../../../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
+- **Purpose:** Record or process a payment manually for a specific invoice.
+- **How:** Use the **Manual Payment** option from the **Action Menu (three dots)**. For more information about Manual Payment, please refer to [Manual Payment](tenant-and-contract-management/contract-management/contract-action/manual-payment.md) section.
 
-Merchant can easily update the collected amount through the **Actual PAID Amt** field.
+## [**Delete Invoice**](invoices-management.md#delete-invoice)
 
-## [Print Invoices](generate-invoice.md#print-invoices)
+- **Purpose:** Remove unnecessary or incorrect invoices.
+- **How:** Click on the **Action Menu (three dots)** and select **Delete Invoice**.
 
-Printing invoices is quick and straightforward. After [displaying](generate-invoice.md#display-invoices) the relevant invoices, simply click on the **Print** button. The system will automatically format and generate a printable PDF version of the selected invoices.
+## [**Generate Report**](invoices-management.md#generate-report)
 
-## [Generate Invoices and Send Payment Links](generate-invoice.md#generate-invoices-and-send-payment-links)
+- **Purpose:** Create a printable PDF report of all or selected invoices.
+- **How:** Click on the **Generate Report** button to export the invoices as a PDF document
 
-After clicking the **SHOW** button, check [here](generate-invoice.md#display-invoices), the **Generate Invoices and Send Links** buttons become active. Clicking this button will:
+Merchants can generate a PDF report containing detailed invoice information, including:
 
-- Create the invoices.
-- Send the payment link to the tenant.
+Unit | Contract ID | Tenant Name | Phone | Payment Status | Due Date | Payment Date | Payment Amount | Discount | Paid Amount | Actual Paid Amount | Is Manual
+
+#### **Steps to Generate PDF Reports:**
+
+1. **Generate Necessary Invoices**:
+   - Ensure all required invoices are generated in the **Generate Invoice** section.
+2. **Access the Invoice Table**:
+   - Navigate to the **Invoice Section** and scroll down to the Invoice Table.
+3. **Filter Parameters (Optional)**:
+   - Click the **Filter** button to set criteria such as due month, due date range, property, payment date range, invoice status, report profile, tenant, and payment type. Then, click **Search** to locate the desired invoices.
+4. **Initiate PDF Generation**:
+   - Click the **Print** button in the Invoice Table.
+5. **Automatic PDF Creation**:
+   - The PDF will generate automatically after clicking the Print button.
+6. **Download the Report**:
+   - Once the PDF is ready, download it to your device.
+
+<figure><img src="../../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
